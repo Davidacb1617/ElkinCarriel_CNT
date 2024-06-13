@@ -32,8 +32,4 @@ export class CntListComponent implements OnInit {
       this.loadCnts();
     });
   }
-
-  selectCnt(cnt: any) {
-    this.selectedCnt.emit(cnt);
-  }
 }
